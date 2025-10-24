@@ -46,9 +46,9 @@ public class GamePanel extends JPanel implements Runnable, KeyListener, MouseLis
 
         // Load Background Images
         try {
-            frontBg = ImageIO.read(getClass().getResourceAsStream("/mypackage/assets/restaurant_front.png"));
-            kitchenBg = ImageIO.read(getClass().getResourceAsStream("/mypackage/assets/restaurant_back.png"));
-            insideKitchenBg = ImageIO.read(getClass().getResourceAsStream("/mypackage/assets/inside_kitchen.png"));
+            frontBg = ImageIO.read(getClass().getResourceAsStream("/mypackage/asset/restaurant_front.jpg"));
+            kitchenBg = ImageIO.read(getClass().getResourceAsStream("/mypackage/asset/restaurant_back.jpg"));
+            insideKitchenBg = ImageIO.read(getClass().getResourceAsStream("/mypackage/asset/kitchen_inside.jpg"));
             System.out.println("✅ Backgrounds loaded successfully!");
         } catch (Exception e) {
             System.out.println("❌ Error loading backgrounds:");
