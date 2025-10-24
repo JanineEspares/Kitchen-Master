@@ -1,6 +1,7 @@
 package mypackage;
 
 import javax.swing.*;
+import java.util.List;
 
 public class GameManager {
     private JFrame window;
@@ -35,11 +36,18 @@ public class GameManager {
         gamePanel.startGameThread();
     }
 
-    public void showDayScreen() {
+    public void showDayPanel() {
         DayPanel dayPanel = new DayPanel(this);
         window.setContentPane(dayPanel);
         window.pack();
         window.setSize(1280, 720);
+    }
+
+    public void showStoryboard(List<Story> stories) {
+        window.getContentPane().removeAll();
+        window.getContentPane().add(new StoryboardPanel(this, stories));
+        window.revalidate();
+        window.repaint();
     }
 
     public void showSettings() {
