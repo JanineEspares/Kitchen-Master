@@ -23,7 +23,7 @@ public class DayPanel extends JPanel {
 
         // Load background
         try {
-            shopBackground = new ImageIcon(getClass().getResource("/mypackage/assets/shop.png")).getImage();
+            shopBackground = new ImageIcon(getClass().getResource("/mypackage/asset/shop.jpg")).getImage();
         } catch (Exception e) {
             System.out.println("⚠️ shop.png not found!");
         }
