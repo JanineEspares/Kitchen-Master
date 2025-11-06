@@ -100,13 +100,13 @@ public class GamePanel extends JPanel implements Runnable, KeyListener, MouseLis
     private boolean trayOnTable = false; // when true, show tray on front view
     private Timer cookTimer = new Timer();
     // Inside-kitchen interaction state
-    private Rectangle burgerBunHotspot = new Rectangle(807, 120, 140, 145);
-    private Rectangle rawPattyHotspot = new Rectangle(444, 120, 140, 145);
-    private Rectangle rawFriesHotspot = new Rectangle(627, 120, 140, 145);
-    private Rectangle rawHotdogHotspot = new Rectangle(940, 120, 80, 80);
+    private Rectangle burgerBunHotspot = new Rectangle(775, 73, 208, 252);
+    private Rectangle rawPattyHotspot = new Rectangle(412, 73, 208, 254);
+    private Rectangle rawFriesHotspot = new Rectangle(592, 70, 210, 264);
+    private Rectangle rawHotdogHotspot = new Rectangle(240, 70, 200, 267);
     private Rectangle hotdogBunHotspot = new Rectangle(980, 200, 80, 80);
-    private Rectangle cupsHotspot = new Rectangle(1150, 160, 80, 80);
-    private Rectangle sodaMachineHotspot = new Rectangle(1080, 240, 120, 140);
+    private Rectangle cupsHotspot = new Rectangle(1150, 180, 125, 180);
+    private Rectangle sodaMachineHotspot = new Rectangle(-100, 10, 425, 518);
 
 
 
